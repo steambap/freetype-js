@@ -1,0 +1,20 @@
+{
+  "name": "freetype-js",
+  "version": "0.0.1",
+  "description": "font parser for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steambap/freetype-js.git"
+  },
+  "keywords": [],
+  "author": "Weilin Shi <934587911@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steambap/freetype-js/issues"
+  },
+  "homepage": "https://github.com/steambap/freetype-js#readme"
+}
