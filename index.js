@@ -1,3 +1,1 @@
-module.exports = function parse(buf) {
-
-};
+module.exports = require('./lib');
