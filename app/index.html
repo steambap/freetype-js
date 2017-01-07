@@ -3,15 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Free type js tester</title>
+	<link rel="stylesheet" href="./style.css">
+	<script src="script.js"></script>
 </head>
-<body>
+<body onload="loadFont()">
 	<header>
 		<h2>Freetype-js</h2>
 	</header>
-	<input type="file" />
-	<div id="svg-renderer">
-
-	</div>
-	<input type="text" value="Hello, World!" id="text" />
+	<main>
+		<input type="file" />
+		<div id="svg-renderer">
+		</div>
+		<input type="text" value="Hello, World!" id="text" oninput="drawWord()"/>
+	</main>
 </body>
 </html>
